@@ -1,0 +1,24 @@
+services:
+  mssql:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: mssql2022
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "Str0ng!Passw0rd"
+    ports:
+      - "1433:1433"
+    volumes:
+      - mssql_data:/var/opt/mssql
+      - ./backups:/var/opt/mssql/backup:ro
+
+  dbinit:
+    image: mcr.microsoft.com/mssql-tools
+    container_name: mssql_dbinit
+    depends_on:
+      - mssql
+    volumes:
+      - ./init:/init:ro
+    entrypoint: ["/bin/bash","/init/dbinit.sh"]
+
+volumes:
+  mssql_data:

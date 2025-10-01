@@ -1,0 +1,349 @@
+[0m13:59:32.939381 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002F0424657F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002F043450590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002F046D9E090>]}
+
+
+============================== 13:59:32.947452 | 7d43f9bf-393f-44d4-af26-89f3b5f22883 ==============================
+[0m13:59:32.947452 [info ] [MainThread]: Running with dbt=1.10.11
+[0m13:59:32.947452 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt init jjr_dwh', 'log_format': 'default', 'use_colors': 'True', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'empty': 'None', 'quiet': 'False', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'log_path': 'logs', 'indirect_selection': 'eager', 'profiles_dir': 'C:\\Users\\majid.zerang\\.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True'}
+[0m13:59:33.047419 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\majid.zerang\.dbt
+[0m13:59:33.051490 [debug] [MainThread]: Starter project path: D:\Majid\dbtPrjs\dev\jjr_dbt\.venv\Lib\site-packages\dbt\include\starter_project
+[0m13:59:33.056497 [info ] [MainThread]: 
+Your new dbt project "jjr_dwh" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:59:33.056497 [info ] [MainThread]: Setting up your profile.
+[0m14:04:25.940665 [info ] [MainThread]: Profile jjr_dwh written to C:\Users\majid.zerang\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m14:04:25.940665 [debug] [MainThread]: Command `dbt init` succeeded at 14:04:25.940665 after 293.07 seconds
+[0m14:04:25.940665 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002F0456871A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002F047F958E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002F047AB1250>]}
+[0m14:04:25.940665 [debug] [MainThread]: Flushing usage events
+[0m14:04:27.142145 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:05:37.421926 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CFB951C290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CFB951FEF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CFB9248A40>]}
+
+
+============================== 14:05:37.427435 | 99c31fc6-7ba9-4228-a963-95c430b36211 ==============================
+[0m14:05:37.427435 [info ] [MainThread]: Running with dbt=1.10.11
+[0m14:05:37.427435 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'log_path': 'logs', 'indirect_selection': 'eager', 'write_json': 'True', 'static_parser': 'True', 'profiles_dir': 'C:\\Users\\majid.zerang\\.dbt'}
+[0m14:05:37.439944 [info ] [MainThread]: dbt version: 1.10.11
+[0m14:05:37.439944 [info ] [MainThread]: python version: 3.12.10
+[0m14:05:37.439944 [info ] [MainThread]: python path: D:\Majid\dbtPrjs\dev\jjr_dbt\.venv\Scripts\python.exe
+[0m14:05:37.439944 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m14:05:37.548178 [info ] [MainThread]: Using profiles dir at C:\Users\majid.zerang\.dbt
+[0m14:05:37.548178 [info ] [MainThread]: Using profiles.yml file at C:\Users\majid.zerang\.dbt\profiles.yml
+[0m14:05:37.549814 [info ] [MainThread]: Using dbt_project.yml file at D:\Majid\dbtPrjs\dev\jjr_dbt\dbt_project.yml
+[0m14:05:37.549814 [info ] [MainThread]: Configuration:
+[0m14:05:37.549814 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m14:05:37.549814 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:05:37.549814 [info ] [MainThread]: Required dependencies:
+[0m14:05:37.549814 [debug] [MainThread]: Executing "git --help"
+[0m14:05:37.549814 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m14:05:37.549814 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m14:05:37.549814 [info ] [MainThread]: [31m3 checks failed:[0m
+[0m14:05:37.555144 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "jjr_dwh", target "dev" invalid: 'schema' is a required property
+
+
+[0m14:05:37.555144 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\Majid\dbtPrjs\dev\jjr_dbt\dbt_project.yml> not found
+
+[0m14:05:37.555144 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m14:05:37.556373 [debug] [MainThread]: Command `dbt debug` failed at 14:05:37.556373 after 0.21 seconds
+[0m14:05:37.556373 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CFBC1645C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CFBC030FB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CFBAE2C9B0>]}
+[0m14:05:37.556373 [debug] [MainThread]: Flushing usage events
+[0m14:05:38.325243 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:09:07.343557 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AB828CECF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002ABFFBD57F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AB80DD6E10>]}
+
+
+============================== 14:09:07.343557 | 2d8de44c-6af5-469b-8c9c-fcddd1c7781d ==============================
+[0m14:09:07.343557 [info ] [MainThread]: Running with dbt=1.10.11
+[0m14:09:07.349565 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'use_colors': 'True', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'quiet': 'False', 'log_cache_events': 'False', 'empty': 'None', 'use_experimental_parser': 'False', 'log_path': 'logs', 'indirect_selection': 'eager', 'profiles_dir': 'C:\\Users\\majid.zerang\\.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'write_json': 'True'}
+[0m14:09:07.359600 [info ] [MainThread]: dbt version: 1.10.11
+[0m14:09:07.359600 [info ] [MainThread]: python version: 3.12.10
+[0m14:09:07.359600 [info ] [MainThread]: python path: D:\Majid\dbtPrjs\dev\jjr_dbt\.venv\Scripts\python.exe
+[0m14:09:07.359600 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m14:09:07.466585 [info ] [MainThread]: Using profiles dir at C:\Users\majid.zerang\.dbt
+[0m14:09:07.466585 [info ] [MainThread]: Using profiles.yml file at C:\Users\majid.zerang\.dbt\profiles.yml
+[0m14:09:07.466585 [info ] [MainThread]: Using dbt_project.yml file at D:\Majid\dbtPrjs\dev\jjr_dbt\dbt_project.yml
+[0m14:09:07.466585 [info ] [MainThread]: adapter type: sqlserver
+[0m14:09:07.466585 [info ] [MainThread]: adapter version: 1.9.0
+[0m14:09:07.466585 [info ] [MainThread]: Configuration:
+[0m14:09:07.466585 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:09:07.466585 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:09:07.466585 [info ] [MainThread]: Required dependencies:
+[0m14:09:07.466585 [debug] [MainThread]: Executing "git --help"
+[0m14:09:07.471096 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m14:09:07.471096 [info ] [MainThread]: Connection:
+[0m14:09:07.471096 [info ] [MainThread]:   server: localhost
+[0m14:09:07.471096 [info ] [MainThread]:   database: JJR_Enterprise_Data_DB
+[0m14:09:07.471096 [info ] [MainThread]:   schema: dbo
+[0m14:09:07.471096 [info ] [MainThread]:   UID: sa
+[0m14:09:07.471096 [info ] [MainThread]:   client_id: None
+[0m14:09:07.471096 [info ] [MainThread]:   authentication: sql
+[0m14:09:07.471096 [info ] [MainThread]:   encrypt: False
+[0m14:09:07.471096 [info ] [MainThread]:   trust_cert: True
+[0m14:09:07.471096 [info ] [MainThread]:   retries: 3
+[0m14:09:07.471096 [info ] [MainThread]:   login_timeout: 0
+[0m14:09:07.471096 [info ] [MainThread]:   query_timeout: 0
+[0m14:09:07.471096 [info ] [MainThread]:   trace_flag: False
+[0m14:09:07.471096 [info ] [MainThread]:   port: 1433
+[0m14:09:07.474621 [info ] [MainThread]: Registered adapter: sqlserver=1.9.0
+[0m14:09:07.583402 [debug] [MainThread]: Acquiring new sqlserver connection 'debug'
+[0m14:09:07.583402 [debug] [MainThread]: Using sqlserver connection "debug"
+[0m14:09:07.583402 [debug] [MainThread]: On debug: select 1 as id
+[0m14:09:07.583402 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:09:07.583402 [debug] [MainThread]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 18 for SQL Server};SERVER=localhost,1433;Database=JJR_Enterprise_Data_DB;UID={sa};PWD=***;encrypt=No;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.9.0
+[0m14:09:07.586407 [debug] [MainThread]: fabric adapter: Error running SQL: select 1 as id
+[0m14:09:07.586407 [debug] [MainThread]: fabric adapter: Rolling back transaction.
+[0m14:09:07.586407 [debug] [MainThread]: On debug: No close available on handle
+[0m14:09:07.586407 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m14:09:07.586407 [info ] [MainThread]: [31m3 checks failed:[0m
+[0m14:09:07.586407 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\Majid\dbtPrjs\dev\jjr_dbt\dbt_project.yml> not found
+
+[0m14:09:07.586407 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m14:09:07.586407 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m14:09:07.586407 [debug] [MainThread]: Command `dbt debug` failed at 14:09:07.586407 after 0.35 seconds
+[0m14:09:07.586407 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m14:09:07.586407 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AB841048F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AB85031040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AB83853680>]}
+[0m14:09:07.586407 [debug] [MainThread]: Flushing usage events
+[0m14:09:08.772305 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:15:51.935665 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E90F19D7F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E912689CA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E9136099A0>]}
+
+
+============================== 12:15:51.944673 | 7e798cda-d42a-43a8-a448-68883c9046d2 ==============================
+[0m12:15:51.944673 [info ] [MainThread]: Running with dbt=1.10.11
+[0m12:15:51.944673 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'printer_width': '80', 'indirect_selection': 'eager', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\majid.zerang\\.dbt', 'static_parser': 'True', 'write_json': 'True'}
+[0m12:15:52.045184 [info ] [MainThread]: dbt version: 1.10.11
+[0m12:15:52.045184 [info ] [MainThread]: python version: 3.12.10
+[0m12:15:52.045184 [info ] [MainThread]: python path: D:\Majid\dbtPrjs\dev\jjr_dbt\.venv\Scripts\python.exe
+[0m12:15:52.045184 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m12:15:54.203388 [info ] [MainThread]: Using profiles dir at C:\Users\majid.zerang\.dbt
+[0m12:15:54.203388 [info ] [MainThread]: Using profiles.yml file at C:\Users\majid.zerang\.dbt\profiles.yml
+[0m12:15:54.203388 [info ] [MainThread]: Using dbt_project.yml file at D:\Majid\dbtPrjs\dev\jjr_dbt\dbt_project.yml
+[0m12:15:54.203388 [info ] [MainThread]: adapter type: sqlserver
+[0m12:15:54.203388 [info ] [MainThread]: adapter version: 1.9.0
+[0m12:15:54.203388 [info ] [MainThread]: Configuration:
+[0m12:15:54.203388 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m12:15:54.204997 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m12:15:54.204997 [info ] [MainThread]: Required dependencies:
+[0m12:15:54.204997 [debug] [MainThread]: Executing "git --help"
+[0m12:15:54.204997 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m12:15:54.204997 [info ] [MainThread]: Connection:
+[0m12:15:54.204997 [info ] [MainThread]:   server: lpc:.
+[0m12:15:54.204997 [info ] [MainThread]:   database: JJR_Enterprise_Data_DB
+[0m12:15:54.204997 [info ] [MainThread]:   schema: dbo
+[0m12:15:54.204997 [info ] [MainThread]:   UID: sa
+[0m12:15:54.204997 [info ] [MainThread]:   client_id: None
+[0m12:15:54.204997 [info ] [MainThread]:   authentication: sql
+[0m12:15:54.204997 [info ] [MainThread]:   encrypt: False
+[0m12:15:54.204997 [info ] [MainThread]:   trust_cert: True
+[0m12:15:54.204997 [info ] [MainThread]:   retries: 3
+[0m12:15:54.204997 [info ] [MainThread]:   login_timeout: 0
+[0m12:15:54.204997 [info ] [MainThread]:   query_timeout: 0
+[0m12:15:54.204997 [info ] [MainThread]:   trace_flag: False
+[0m12:15:54.204997 [info ] [MainThread]:   port: 1433
+[0m12:15:54.211462 [info ] [MainThread]: Registered adapter: sqlserver=1.9.0
+[0m12:15:54.366643 [debug] [MainThread]: Acquiring new sqlserver connection 'debug'
+[0m12:15:54.366643 [debug] [MainThread]: Using sqlserver connection "debug"
+[0m12:15:54.366643 [debug] [MainThread]: On debug: select 1 as id
+[0m12:15:54.366643 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:15:54.366643 [debug] [MainThread]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=lpc:.,1433;Database=JJR_Enterprise_Data_DB;UID={sa};PWD=***;encrypt=No;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.9.0
+[0m12:16:09.380311 [debug] [MainThread]: sqlserver adapter: Got a retryable error when attempting to open a sqlserver connection.
+3 attempts remaining. Retrying in 1 seconds.
+Error:
+('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]SQL Server Network Interfaces: Connection string is not valid [87].  (87) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (87)')
+[0m12:16:10.384243 [debug] [MainThread]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=lpc:.,1433;Database=JJR_Enterprise_Data_DB;UID={sa};PWD=***;encrypt=No;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.9.0
+[0m12:16:25.390630 [debug] [MainThread]: sqlserver adapter: Got a retryable error when attempting to open a sqlserver connection.
+2 attempts remaining. Retrying in 1 seconds.
+Error:
+('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]SQL Server Network Interfaces: Connection string is not valid [87].  (87) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (87)')
+[0m12:16:26.392519 [debug] [MainThread]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=lpc:.,1433;Database=JJR_Enterprise_Data_DB;UID={sa};PWD=***;encrypt=No;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.9.0
+[0m12:16:41.388763 [debug] [MainThread]: sqlserver adapter: Got a retryable error when attempting to open a sqlserver connection.
+1 attempts remaining. Retrying in 1 seconds.
+Error:
+('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]SQL Server Network Interfaces: Connection string is not valid [87].  (87) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (87)')
+[0m12:16:42.390803 [debug] [MainThread]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=lpc:.,1433;Database=JJR_Enterprise_Data_DB;UID={sa};PWD=***;encrypt=No;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.9.0
+[0m12:16:57.402817 [debug] [MainThread]: fabric adapter: Error running SQL: select 1 as id
+[0m12:16:57.402817 [debug] [MainThread]: fabric adapter: Rolling back transaction.
+[0m12:16:57.402817 [debug] [MainThread]: On debug: No close available on handle
+[0m12:16:57.404843 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m12:16:57.406373 [info ] [MainThread]: [31m3 checks failed:[0m
+[0m12:16:57.406373 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\Majid\dbtPrjs\dev\jjr_dbt\dbt_project.yml> not found
+
+[0m12:16:57.406373 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m12:16:57.406373 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]SQL Server Network Interfaces: Connection string is not valid [87].  (87) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (87)')
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m12:16:57.413790 [debug] [MainThread]: Command `dbt debug` failed at 12:16:57.413790 after 65.55 seconds
+[0m12:16:57.413790 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m12:16:57.414808 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E914863800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E91483A480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E914E120C0>]}
+[0m12:16:57.415347 [debug] [MainThread]: Flushing usage events
+[0m12:16:58.224984 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:05:57.660347 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025E2D2CEDE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025E2D621610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025E2C8B8B00>]}
+
+
+============================== 13:05:57.660347 | f4472d1d-b9f4-4099-abf3-0c6bea862f11 ==============================
+[0m13:05:57.660347 [info ] [MainThread]: Running with dbt=1.10.11
+[0m13:05:57.665325 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'profiles_dir': 'C:\\Users\\majid.zerang\\.dbt', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'log_cache_events': 'False', 'log_path': 'logs', 'indirect_selection': 'eager', 'write_json': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m13:05:57.672897 [info ] [MainThread]: dbt version: 1.10.11
+[0m13:05:57.672897 [info ] [MainThread]: python version: 3.12.10
+[0m13:05:57.674268 [info ] [MainThread]: python path: D:\Majid\dbtPrjs\dev\jjr_dbt\.venv\Scripts\python.exe
+[0m13:05:57.674760 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m13:05:57.777891 [info ] [MainThread]: Using profiles dir at C:\Users\majid.zerang\.dbt
+[0m13:05:57.777891 [info ] [MainThread]: Using profiles.yml file at C:\Users\majid.zerang\.dbt\profiles.yml
+[0m13:05:57.781902 [info ] [MainThread]: Using dbt_project.yml file at D:\Majid\dbtPrjs\dev\jjr_dbt\dbt_project.yml
+[0m13:05:57.781902 [info ] [MainThread]: adapter type: sqlserver
+[0m13:05:57.781902 [info ] [MainThread]: adapter version: 1.9.0
+[0m13:05:57.781902 [info ] [MainThread]: Configuration:
+[0m13:05:57.782908 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m13:05:57.783075 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m13:05:57.783075 [info ] [MainThread]: Required dependencies:
+[0m13:05:57.783075 [debug] [MainThread]: Executing "git --help"
+[0m13:05:57.783075 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m13:05:57.783075 [info ] [MainThread]: Connection:
+[0m13:05:57.783075 [info ] [MainThread]:   server: localhost
+[0m13:05:57.787778 [info ] [MainThread]:   database: master
+[0m13:05:57.787778 [info ] [MainThread]:   schema: dbo
+[0m13:05:57.788256 [info ] [MainThread]:   UID: sa
+[0m13:05:57.788545 [info ] [MainThread]:   client_id: None
+[0m13:05:57.788545 [info ] [MainThread]:   authentication: sql
+[0m13:05:57.788545 [info ] [MainThread]:   encrypt: False
+[0m13:05:57.788545 [info ] [MainThread]:   trust_cert: True
+[0m13:05:57.788545 [info ] [MainThread]:   retries: 3
+[0m13:05:57.788545 [info ] [MainThread]:   login_timeout: 0
+[0m13:05:57.788545 [info ] [MainThread]:   query_timeout: 0
+[0m13:05:57.788545 [info ] [MainThread]:   trace_flag: False
+[0m13:05:57.788545 [info ] [MainThread]:   port: 1433
+[0m13:05:57.788545 [info ] [MainThread]: Registered adapter: sqlserver=1.9.0
+[0m13:05:57.895224 [debug] [MainThread]: Acquiring new sqlserver connection 'debug'
+[0m13:05:57.895224 [debug] [MainThread]: Using sqlserver connection "debug"
+[0m13:05:57.895224 [debug] [MainThread]: On debug: select 1 as id
+[0m13:05:57.895224 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m13:05:57.896300 [debug] [MainThread]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost,1433;Database=master;UID={sa};PWD=***;encrypt=No;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.9.0
+[0m13:05:57.933595 [debug] [MainThread]: sqlserver adapter: Connected to db: master
+[0m13:05:57.934620 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m13:05:57.935133 [debug] [MainThread]: On debug: Close
+[0m13:05:57.935133 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m13:05:57.935644 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m13:05:57.935644 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\Majid\dbtPrjs\dev\jjr_dbt\dbt_project.yml> not found
+
+[0m13:05:57.936156 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m13:05:57.936667 [debug] [MainThread]: Command `dbt debug` failed at 13:05:57.936667 after 0.36 seconds
+[0m13:05:57.937175 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m13:05:57.937175 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025E2CCAD460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025E2A84CB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025E2F801880>]}
+[0m13:05:57.937175 [debug] [MainThread]: Flushing usage events
+[0m13:05:58.863975 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:20:04.631537 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000298D6B24F80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000298D3227FE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000298D6EAF5F0>]}
+
+
+============================== 14:20:04.638396 | 87ce5932-614d-489d-a63b-7023079866ee ==============================
+[0m14:20:04.638396 [info ] [MainThread]: Running with dbt=1.10.11
+[0m14:20:04.638396 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'warn_error': 'None', 'invocation_command': 'dbt debug', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'empty': 'None', 'quiet': 'False', 'use_experimental_parser': 'False', 'printer_width': '80', 'indirect_selection': 'eager', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\majid.zerang\\.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True'}
+[0m14:20:04.661354 [info ] [MainThread]: dbt version: 1.10.11
+[0m14:20:04.661354 [info ] [MainThread]: python version: 3.12.10
+[0m14:20:04.661354 [info ] [MainThread]: python path: D:\Majid\dbtPrjs\dev\jjr_dbt\.venv\Scripts\python.exe
+[0m14:20:04.661354 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m14:20:04.795119 [info ] [MainThread]: Using profiles dir at C:\Users\majid.zerang\.dbt
+[0m14:20:04.795635 [info ] [MainThread]: Using profiles.yml file at C:\Users\majid.zerang\.dbt\profiles.yml
+[0m14:20:04.796299 [info ] [MainThread]: Using dbt_project.yml file at D:\Majid\dbtPrjs\dev\jjr_dbt\dbt_project.yml
+[0m14:20:04.796299 [info ] [MainThread]: adapter type: sqlserver
+[0m14:20:04.796299 [info ] [MainThread]: adapter version: 1.9.0
+[0m14:20:04.796299 [info ] [MainThread]: Configuration:
+[0m14:20:04.796299 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:20:04.797304 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:20:04.797304 [info ] [MainThread]: Required dependencies:
+[0m14:20:04.797304 [debug] [MainThread]: Executing "git --help"
+[0m14:20:04.799809 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m14:20:04.799809 [info ] [MainThread]: Connection:
+[0m14:20:04.801388 [info ] [MainThread]:   server: localhost
+[0m14:20:04.801585 [info ] [MainThread]:   database: Northwind
+[0m14:20:04.801585 [info ] [MainThread]:   schema: dbo
+[0m14:20:04.801585 [info ] [MainThread]:   UID: sa
+[0m14:20:04.802088 [info ] [MainThread]:   client_id: None
+[0m14:20:04.802088 [info ] [MainThread]:   authentication: sql
+[0m14:20:04.802088 [info ] [MainThread]:   encrypt: False
+[0m14:20:04.802088 [info ] [MainThread]:   trust_cert: True
+[0m14:20:04.802088 [info ] [MainThread]:   retries: 3
+[0m14:20:04.802088 [info ] [MainThread]:   login_timeout: 0
+[0m14:20:04.802088 [info ] [MainThread]:   query_timeout: 0
+[0m14:20:04.802088 [info ] [MainThread]:   trace_flag: False
+[0m14:20:04.803090 [info ] [MainThread]:   port: 1433
+[0m14:20:04.803090 [info ] [MainThread]: Registered adapter: sqlserver=1.9.0
+[0m14:20:04.909500 [debug] [MainThread]: Acquiring new sqlserver connection 'debug'
+[0m14:20:04.909500 [debug] [MainThread]: Using sqlserver connection "debug"
+[0m14:20:04.909500 [debug] [MainThread]: On debug: select 1 as id
+[0m14:20:04.909500 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:20:04.909500 [debug] [MainThread]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost,1433;Database=Northwind;UID={sa};PWD=***;encrypt=No;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.9.0
+[0m14:20:04.936638 [debug] [MainThread]: sqlserver adapter: Connected to db: Northwind
+[0m14:20:04.937655 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m14:20:04.938168 [debug] [MainThread]: On debug: Close
+[0m14:20:04.938679 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m14:20:04.938679 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m14:20:04.939190 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\Majid\dbtPrjs\dev\jjr_dbt\dbt_project.yml> not found
+
+[0m14:20:04.939190 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m14:20:04.939700 [debug] [MainThread]: Command `dbt debug` failed at 14:20:04.939700 after 0.40 seconds
+[0m14:20:04.940212 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m14:20:04.940212 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000298D58ABD40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000298D7C20500>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000298D8331280>]}
+[0m14:20:04.940212 [debug] [MainThread]: Flushing usage events
+[0m14:20:06.102619 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:30:31.176269 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002246F1B0F20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002246C637F50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002246C54CB30>]}
+
+
+============================== 14:30:31.179469 | 37675459-d6c4-4232-8971-91d29c252c92 ==============================
+[0m14:30:31.179469 [info ] [MainThread]: Running with dbt=1.10.11
+[0m14:30:31.179469 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'profiles_dir': 'C:\\Users\\majid.zerang\\.dbt', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'warn_error': 'None', 'invocation_command': 'dbt parse', 'log_format': 'default', 'use_colors': 'True', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'empty': 'None', 'quiet': 'False', 'use_experimental_parser': 'False', 'printer_width': '80', 'log_path': 'logs', 'indirect_selection': 'eager', 'write_json': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m14:30:31.180476 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path D:\Majid\dbtPrjs\dev\jjr_dbt\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m14:30:31.180476 [debug] [MainThread]: Command `dbt parse` failed at 14:30:31.180476 after 0.07 seconds
+[0m14:30:31.180476 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000224708F1700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002246C54CB30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002246F63AC30>]}
+[0m14:30:31.181482 [debug] [MainThread]: Flushing usage events
+[0m14:30:32.619399 [debug] [MainThread]: An error was encountered while trying to flush usage events

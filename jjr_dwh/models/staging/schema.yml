@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: northwind
+    database: Northwind        # صریح بگو از کدام DB
+    schema: dbo
+    quoting:
+      identifier: true         # برای اسم‌های حساس/با فاصله
+
+    tables:
+      - name: products         # نام منطقی که در dbt صدا می‌زنی
+        identifier: Products   # نام واقعی در DB
+      - name: orders
+        identifier: Orders
+      - name: customers
+        identifier: Customers
+      - name: order_details
+        identifier: "Order Details"   # جدول با فاصله

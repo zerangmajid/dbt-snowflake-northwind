@@ -1,0 +1,9 @@
+name: jjr_dwh
+version: 1.0.0
+profile: jjr_dwh   # باید با اسم پروفایل در profiles.yml یکی باشه
+
+model-paths: ["models"]
+
+models:
+  jjr_dwh:
+    +materialized: view

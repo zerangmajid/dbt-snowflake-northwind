@@ -1,0 +1,13 @@
+# Python virtual environment
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# DBT build artifacts
+target/
+dbt_packages/
+logs/
+
+# VS Code
+.vscode/
