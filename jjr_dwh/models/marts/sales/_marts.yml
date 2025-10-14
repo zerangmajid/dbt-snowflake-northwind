@@ -1,0 +1,24 @@
+version: 2
+models:
+  - name: dim_product
+    tests:
+      - not_null:
+          arguments:
+            column_name: product_key
+      - unique:
+          arguments:
+            column_name: product_key
+
+  - name: fct_order_items
+    tests:
+      - not_null:
+          arguments:
+            column_name: order_id
+      - not_null:
+          arguments:
+            column_name: product_id
+      - relationships:
+          arguments:
+            to: ref('dim_product')
+            field: product_key       # کلید در جدول مقصد
+            column_name: product_id  # ستونی که در این مدل چک می‌کنیم

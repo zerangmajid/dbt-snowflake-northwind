@@ -1,0 +1,16 @@
+version: 2
+sources:
+  - name: northwind
+    database: Northwind
+    schema: dbo
+    quoting:
+      identifier: true
+    tables:
+      - name: customers
+        identifier: Customers
+      - name: orders
+        identifier: Orders
+      - name: products
+        identifier: Products
+      - name: order_details
+        identifier: "Order Details"
