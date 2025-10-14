@@ -20,5 +20,20 @@ models:
       - relationships:
           arguments:
             to: ref('dim_product')
-            field: product_key       # کلید در جدول مقصد
-            column_name: product_id  # ستونی که در این مدل چک می‌کنیم
+            field: product_key        
+            column_name: product_id   
+
+  - name: dim_product_scd1
+    tests:
+      - not_null: { arguments: { column_name: product_key } }
+      - unique:   { arguments: { column_name: product_key } }
+  - name: dim_product_scd2
+    tests:
+      - not_null: { arguments: { column_name: product_sk } }
+      - unique:   { arguments: { column_name: product_sk } }
+      - not_null: { arguments: { column_name: product_bk } }
+
+  - name: dim_product_scd2_current
+    tests:
+      - not_null: { arguments: { column_name: product_sk } }
+      - unique:   { arguments: { column_name: product_sk } }
