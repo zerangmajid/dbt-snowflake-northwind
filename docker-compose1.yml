@@ -1,3 +1,4 @@
+# docker-compose.yml
 services:
   mssql:
     image: mcr.microsoft.com/mssql/server:2022-latest
@@ -9,16 +10,10 @@ services:
       - "1544:1433"
     volumes:
       - mssql_data:/var/opt/mssql
-      - ./backups:/var/opt/mssql/backup:ro
-
-  dbinit:
-    image: mcr.microsoft.com/mssql-tools
-    container_name: mssql_dbinit
-    depends_on:
-      - mssql
-    volumes:
-      - ./init:/init:ro
-    entrypoint: ["/bin/bash","/init/dbinit.sh"]
-
+    # (اختیاری) محدودیت رم/CPU در dev
+    deploy:
+      resources:
+        limits:
+          memory: 4g
 volumes:
   mssql_data:
