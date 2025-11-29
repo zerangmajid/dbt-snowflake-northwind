@@ -1,16 +1,19 @@
 version: 2
+
 sources:
   - name: northwind
-    database: Northwind
-    schema: dbo
+    database: "{{ 'Northwind' if target.type == 'sqlserver' else 'RAW' }}"
+    schema:   "{{ 'dbo'       if target.type == 'sqlserver' else 'MSSQL' }}"
+
     quoting:
-      identifier: true
+      identifier: "{{ true if target.type == 'sqlserver' else false }}"
+
     tables:
       - name: customers
-        identifier: Customers
+        identifier: "{{ 'Customers' if target.type == 'sqlserver' else 'customers' }}"
       - name: orders
-        identifier: Orders
+        identifier: "{{ 'Orders' if target.type == 'sqlserver' else 'orders' }}"
       - name: products
-        identifier: Products
+        identifier: "{{ 'Products' if target.type == 'sqlserver' else 'products' }}"
       - name: order_details
-        identifier: "Order Details"
+        identifier: "{{ 'Order Details' if target.type == 'sqlserver' else 'order_details' }}"

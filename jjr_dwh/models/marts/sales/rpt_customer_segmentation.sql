@@ -16,4 +16,4 @@ select *,
     when num_orders >= 5 then 'Mid Value'
     else 'Low Value'
   end as customer_segment
-from cs;
+from cs
