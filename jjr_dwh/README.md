@@ -1,4 +1,4 @@
----
+ 
 
 # 🧊 dbt + Snowflake + Northwind Demo  
 A complete end-to-end ELT project using **dbt**, **Snowflake**, and **Dockerized SQL Server** with the classic **Northwind** dataset.
